@@ -178,7 +178,7 @@ body {
 .item__logo {
   will-change: tranform;
   opacity: 1;
-  z-index: -1;
+  z-index: -2;
   transition: all 0.3s ease 0s;
   border-radius: 50%;
   overflow: hidden;
@@ -231,6 +231,27 @@ body {
 
 .uiverse__logo {
   border-radius: 0;
+}
+
+.neumorphism__logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  background: #d4d4d4;
+  box-shadow: inset 5px 5px 4px #bbbbbb, inset -5px -5px 4px #ededed;
+}
+
+.fancyborder__logo {
+  background: rgb(80, 32, 150);
+  background: linear-gradient(45deg, rgb(80, 32, 150) 0%, rgb(255, 1, 255) 100%);
+  width: 35px;
+  height: 35px;
+  border-radius: 32% 68% 76% 24%/61% 36% 64% 39%;
+}
+
+.coolors__logo {
+  background: rgb(96, 108, 56);
+  background: linear-gradient(90deg, rgb(96, 108, 56) 0%, rgb(96, 108, 56) 25%, rgb(40, 54, 24) 25%, rgb(40, 54, 24) 50%, rgb(254, 250, 224) 50%, rgb(254, 250, 224) 75%, rgb(221, 161, 94) 75%, rgb(221, 161, 94) 100%);
 }
 
 @media (max-width: 960px) {
